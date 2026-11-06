@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3F8F2"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="22dp">
+
+        <!-- App name -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🌱 Wellness Comrade"
+            android:textColor="#245B3A"
+            android:textSize="25sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="YOUR FRIENDLY NUTRITION COMPANION"
+            android:textColor="#64816B"
+            android:textSize="10sp"
+            android:letterSpacing="0.08"
+            android:layout_marginTop="6dp"/>
+
+        <!-- Welcome section -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Take care of your health."
+            android:textColor="#244A32"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:layout_marginTop="32dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Learn about nutrients and discover food sources that support your well-being."
+            android:textColor="#64816B"
+            android:textSize="15sp"
+            android:layout_marginTop="8dp"/>
+
+        <!-- Categories heading -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Explore Nutritional Deficiencies"
+            android:textColor="#244A32"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:layout_marginTop="34dp"
+            android:layout_marginBottom="18dp"/>
+
+        <!-- Iron -->
+        <Button
+            android:id="@+id/btnIron"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="🩸   Iron Deficiency"
+            android:textSize="16sp"
+            android:textAllCaps="false"
+            android:gravity="center_vertical"
+            android:paddingStart="20dp"
+            android:backgroundTint="#FFFFFF"
+            android:textColor="#245B3A"
+            android:layout_marginBottom="14dp"/>
+
+        <!-- Vitamin B12 -->
+        <Button
+            android:id="@+id/btnB12"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="🥚   Vitamin B12 Deficiency"
+            android:textSize="16sp"
+            android:textAllCaps="false"
+            android:gravity="center_vertical"
+            android:paddingStart="20dp"
+            android:backgroundTint="#FFFFFF"
+            android:textColor="#245B3A"
+            android:layout_marginBottom="14dp"/>
+
+        <!-- Vitamin D -->
+        <Button
+            android:id="@+id/btnVitaminD"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="☀️   Vitamin D Deficiency"
+            android:textSize="16sp"
+            android:textAllCaps="false"
+            android:gravity="center_vertical"
+            android:paddingStart="20dp"
+            android:backgroundTint="#FFFFFF"
+            android:textColor="#245B3A"
+            android:layout_marginBottom="14dp"/>
+
+        <!-- Calcium -->
+        <Button
+            android:id="@+id/btnCalcium"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="🥛   Calcium Deficiency"
+            android:textSize="16sp"
+            android:textAllCaps="false"
+            android:gravity="center_vertical"
+            android:paddingStart="20dp"
+            android:backgroundTint="#FFFFFF"
+            android:textColor="#245B3A"
+            android:layout_marginBottom="26dp"/>
+
+        <!-- Wellness reminder -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E3EFE3"
+            android:padding="18dp"
+            android:text="💚 A little reminder\n\nGood nutrition is an important part of overall wellness. Learn, explore and take care."
+            android:textColor="#52735C"
+            android:textSize="14sp"
+            android:lineSpacingExtra="5dp"/>
+
+        <!-- Disclaimer -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="For educational purposes only. Not a substitute for medical advice."
+            android:textColor="#819186"
+            android:textSize="11sp"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="12dp"/>
+
+    </LinearLayout>
+</ScrollView>

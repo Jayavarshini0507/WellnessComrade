@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F8F4"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="22dp">
+
+        <!-- Back button -->
+        <TextView
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="← Back"
+            android:textColor="#398453"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:padding="8dp"/>
+
+        <!-- Category title -->
+        <TextView
+            android:id="@+id/tvDetailTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Iron Deficiency"
+            android:textColor="#245B3A"
+            android:textSize="27sp"
+            android:textStyle="bold"
+            android:layout_marginTop="24dp"/>
+
+        <!-- Introduction -->
+        <TextView
+            android:id="@+id/tvDetailDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Learn about this nutrient and its importance to the body."
+            android:textColor="#718575"
+            android:textSize="15sp"
+            android:layout_marginTop="12dp"/>
+
+        <!-- Importance heading -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Why is it important?"
+            android:textColor="#245B3A"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:id="@+id/tvImportance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This nutrient supports important functions in the body."
+            android:textColor="#52665A"
+            android:textSize="15sp"
+            android:layout_marginTop="10dp"/>
+
+        <!-- Food sources heading -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Food Sources"
+            android:textColor="#245B3A"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:id="@+id/tvFoodSources"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E4F0E3"
+            android:padding="18dp"
+            android:text="Spinach, lentils, beans and other foods."
+            android:textColor="#42634A"
+            android:textSize="15sp"
+            android:lineSpacingExtra="6dp"
+            android:layout_marginTop="12dp"/>
+
+        <!-- Medical disclaimer -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Note: This application provides educational information only. It does not diagnose or treat medical conditions. Consult a healthcare professional for medical advice."
+            android:textColor="#819186"
+            android:textSize="12sp"
+            android:lineSpacingExtra="5dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="20dp"/>
+
+    </LinearLayout>
+</ScrollView>
